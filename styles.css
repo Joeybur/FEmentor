@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+    min-height: 100vh;
+    font-family:'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: hsl(221, 100%, 96%);
+}  
+
+.card{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-result{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    color: #fff;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+}
+
+.card-result h1{
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.card-result p{
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.score {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.score h2{
+    font-size: 40px;
+}
+.card-summary{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px; 
+    
+}
+.card-summary h2{
+    font-weight: 700;
+    margin: 20px;
+    text-align: left;
+}
+.summary{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px  35px ;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}  
+.icon-display{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 800;
+}
+.summary-icon1{
+    color: hsl(0, 100%, 67%);
+}
+.summary-icon2{
+    color: hsl(39, 100%, 56%);
+}
+.summary-icon3{
+    color: hsl(166, 100%, 37%);
+}
+.summary-icon4{
+    color: hsl(234, 85%, 45%)
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, .1);
+    border-radius: 10px;
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+}
+.result{
+    font-weight: 800;
+}
+#result{
+    font-weight: 400;
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+}
+.btn:hover{
+    background: linear-gradient(#6542FE,#342CE2);
+}
+
+@media (max-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
